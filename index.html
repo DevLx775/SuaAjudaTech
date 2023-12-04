@@ -11,9 +11,9 @@
       <section class="sessao-login">
         <form action="./paginas/processandoDados.php" method="post">
           <h1 class="titulo-sessao-login">
-            <span class="emoji-titulo">&#9762;</span>
+            <span class="emoji-titulo">⚠</span>
             Área restrita
-            <span class="emoji-titulo">&#9762;</span>
+            <span class="emoji-titulo">⚠</span>
           </h1>
           <h2 class="subtitulo-sessao-login">Painel administrativo</h2>
           <h3 class="sub-subtitulo-sessao-login">Faca login para continuar</h3>
@@ -24,6 +24,8 @@
               name="usuario"
               id="usuario"
               placeholder="SeuEmail@gmail.com"
+              tabindex="1"
+              autocomplete="off"
               required
             />
           </div>
@@ -34,16 +36,13 @@
               name="senha"
               id="senha"
               placeholder="Digite sua senha"
+              tabindex="2"
+              autocomplete="off"
               required
             />
           </div>
           <div class="box-container">
             <button type="submit">Continuar</button>
-          </div>
-          <div class="container-registra-se">
-            <p class="paragrafo-registra-se">
-              Ainda não possui uma conta?<a href="">Registra-se</a>
-            </p>
           </div>
         </form>
       </section>
