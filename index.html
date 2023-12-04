@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuaAjudaTech | Login</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  </head>
+  <body>
+    <main class="conteudo-principal">
+      <section class="sessao-login">
+        <form action="./paginas/processandoDados.php" method="post">
+          <h1 class="titulo-sessao-login">
+            <span class="emoji-titulo">&#9762;</span>
+            Área restrita
+            <span class="emoji-titulo">&#9762;</span>
+          </h1>
+          <h2 class="subtitulo-sessao-login">Painel administrativo</h2>
+          <h3 class="sub-subtitulo-sessao-login">Faca login para continuar</h3>
+          <div class="input-container">
+            <label class="label-email" for="email">Email:</label>
+            <input
+              type="email"
+              name="usuario"
+              id="usuario"
+              placeholder="SeuEmail@gmail.com"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="senha" class="label-senha">Senha:</label>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Digite sua senha"
+              required
+            />
+          </div>
+          <div class="box-container">
+            <button type="submit">Continuar</button>
+          </div>
+          <div class="container-registra-se">
+            <p class="paragrafo-registra-se">
+              Ainda não possui uma conta?<a href="">Registra-se</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
