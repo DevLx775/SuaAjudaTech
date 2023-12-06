@@ -9,7 +9,10 @@
   <body>
     <main class="conteudo-principal">
       <section class="sessao-login">
-        <form action="./paginas/processandoDados.php" method="post">
+        <form
+          action="http://localhost:3000/metodos/processandoDados.php"
+          method="post"
+        >
           <h1 class="titulo-sessao-login">
             <span class="emoji-titulo">⚠</span>
             Área restrita
@@ -20,10 +23,10 @@
           <div class="input-container">
             <label class="label-email" for="email">Email:</label>
             <input
-              type="email"
+              type="text"
               name="usuario"
               id="usuario"
-              placeholder="SeuEmail@gmail.com"
+              placeholder="usuario"
               tabindex="1"
               autocomplete="off"
               required
